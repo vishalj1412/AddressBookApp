@@ -15,8 +15,8 @@ public class AddressBookApp {
         System.out.println("***********************************************");
         System.out.println(" Welcome To Address Book");
         System.out.println("***********************************************");
-        AddressBookApp appAddressBookMain = new AddressBookApp();
-        appAddressBookMain.createAddressBook();
+        AddressBookApp appAddressBook = new AddressBookApp();
+        appAddressBook.createAddressBook();
     }
 
     /**
