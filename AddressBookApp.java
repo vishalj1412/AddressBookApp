@@ -1,11 +1,13 @@
 package org.example;
 import java.util.Scanner;
 
-public class AppAddressBookMain {
+public class AddressBookApp {
     public static void main(String[] args) {
-        System.out.println("***********************************************\n          Welcome To Address Book\n***********************************************\n");
-        AppAddressBookMain appAddressBookMain = new AppAddressBookMain();
-        System.out.println(appAddressBookMain.createContact());
+        System.out.println("***********************************************");
+        System.out.println("Welcome To Address Book");
+        System.out.println("***********************************************");
+        AddressBookApp appAddressBook = new AddressBookApp();
+        System.out.println(appAddressBook.createContact());
     }
 
     private Contacts createContact() {
