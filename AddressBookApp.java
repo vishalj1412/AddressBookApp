@@ -161,7 +161,7 @@ public class AddressBookApp {
         }
     }
 
-    /**
+    /*
      * method for create/add new contact
      */
     private void createContact(ArrayList<Contact> newContactList) {
