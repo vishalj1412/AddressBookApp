@@ -2,20 +2,22 @@ package org.example;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class AppAddressBookMain {
+public class AddressBookApp {
     static ArrayList<Contact> contactList = new ArrayList<>();
 
     public static void main(String[] args) {
-        System.out.println("***********************************************\n          Welcome To Address Book\n***********************************************\n");
-        AppAddressBookMain appAddressBookMain = new AppAddressBookMain();
+        System.out.println("***********************************************");
+            System.out.println("Welcome To Address Book");
+       System.out.println("***********************************************");
+        AddressBookApp appAddressB = new AddressBookapp();
         int ch = 0;
         while (ch == 0) {
             Scanner scanner = new Scanner(System.in);
             System.out.print("1. = Add Contacts\n2. = Display Contact\n3. = Exit\nEnter Your Choice: ");
             int choice = scanner.nextInt();
             switch (choice) {
-                case 1 -> appAddressBookMain.createContact();
-                case 2 -> appAddressBookMain.display();
+                case 1 -> appAddressBook.createContact();
+                case 2 -> appAddressBook.display();
                 case 3 -> ch = 1;
                 default -> System.out.println("Plz Enter 1 or 2 or 3  only");
             }
